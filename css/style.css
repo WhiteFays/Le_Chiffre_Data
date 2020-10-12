@@ -1,9 +1,25 @@
-.container {
-  column-count: 2;
+@font-face 
+{ 
+  font-family: Typoo;
+  src: url(../static/Raleway-Medium.ttf);
+}
+@font-face 
+{ 
+  font-family: TypooGras;
+  src: url(../static/Raleway-Black.ttf);
+}
+@font-face 
+{ 
+  font-family: Typoolight;
+  src: url(../static/Raleway-Light.ttf);
+}
+@font-face 
+{ 
+  font-family: TypooItalic;
+  src: url(../static/Raleway-BoldItalic.ttf);
 }
 .Left
 {
-  /*margin-left: 20%;*/
   float: left;
   border: 1px solid #000000;
   padding: 1em;
@@ -11,7 +27,44 @@
 
 .Right
 {
+ margin-top: 5%;
   float: right;
   width: 55%;
- 
+}
+
+.Photo
+{
+   width:200px;
+   clip-path:ellipse(50% 50%);
+}
+
+a
+{
+    font-family: TypooItalic;
+    text-decoration:none; 
+    color: black;
+} 
+h3
+{
+    margin-top: 30px;
+    font-family: Typoo;
+}
+h2
+{
+    margin-top: 30px;
+    margin-bottom: 2px;
+    font-family: TypooGras;
+}
+
+li, p
+{
+    font-family: Typoolight;
+}
+.mini
+{
+    font-size: 12px
+}
+.list
+{
+    list-style:none;
 }
