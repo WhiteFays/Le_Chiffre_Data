@@ -1,0 +1,15 @@
+.container {
+  column-count: 2;
+}
+.Left
+{
+  margin-right: 15%;
+  border: 1px solid #000000;
+  padding: 1em;
+}
+
+.Right
+{
+  float: right;
+  width: 70%;
+}
