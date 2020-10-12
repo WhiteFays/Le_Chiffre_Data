@@ -3,7 +3,8 @@
 }
 .Left
 {
-  margin-right: 15%;
+  /*margin-left: 20%;*/
+  float: left;
   border: 1px solid #000000;
   padding: 1em;
 }
@@ -11,5 +12,6 @@
 .Right
 {
   float: right;
-  width: 70%;
+  width: 55%;
+ 
 }
