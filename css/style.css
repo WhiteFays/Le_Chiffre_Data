@@ -105,6 +105,13 @@ span
 {
    list-style: none;
 }
+#Bloc
+{
+    position: relative;
+    width: 720px;
+    margin:0 auto;
+    height: 100%;
+}
 img
 {
     display: block;
@@ -112,14 +119,25 @@ img
     max-width: 100%;
 }
 .wrapper {
+
+position: absolute;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: auto;/*230px;*/
 }
-#Bloc
+.wrapperBis {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;/*230px;*/
+}
+#loupe:hover
 {
     position: relative;
-    width: 720px;
-    margin:0 auto;
-    height: 100%;
+    opacity: 0.7;
+}
+#loupe
+{
+    position: relative;
+    opacity: 0;
 }
