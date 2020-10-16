@@ -173,8 +173,9 @@ position: absolute;
 {
     position: relative;
     margin-left: 350px;
-    margin-top: 50px;
-    width: 55px;
+    margin-top: 10px;
+    margin-bottom: -80px;
+    width: 45px;
 }
 .Bloc
 {
@@ -189,22 +190,60 @@ position: absolute;
     font-family: TypooGras;
 }
 .formu{
-    margin: auto auto;
     width: 350px;
 }
 
 .formu h3{
-    font-size: 17px;
-    margin-top: 5px;
+    font-size: 13px;
+    margin-top: 15px;
     margin-bottom: 7px;
 }
-.btnEnvoyer h3
+.btnEnvoyer
 {
     font-family: Typoolight;
 }
-.presentation h3
+input
 {
-     margin: auto auto;
-    width: 200px;
-     font-family: Typoolight;
+    font-size: 10px;
+    font-family: Typoolight;
+    min-width: 170px;
+    min-height: 20px;
+    border:1px solid #ffffff;
+    border-radius:5px;
+}
+
+textarea
+{
+    resize: none;
+    font-size: 10px;
+    font-family: Typoolight;
+    min-height: 300px;
+    min-width: 170px;
+    border:1px solid #ffffff;
+    border-radius:5px;
+}
+.color
+{
+    color: aliceblue;
+}
+button
+{
+    border:1px solid #F0EFEF;
+    border-radius:5px;
+    color: #8E8E8E;
+    height: 25px;
+}
+.presentation 
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+    font-family: TypooGras;
+}
+button:hover
+{
+    color: #B7B7B7;
 }
