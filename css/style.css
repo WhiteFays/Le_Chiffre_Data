@@ -126,7 +126,7 @@ position: absolute;
   grid-auto-rows: auto;/*230px;*/
   margin-bottom: 75px;
 }
-.wrapperBis {
+.wrapperBis { 
   position: absolute;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -141,4 +141,70 @@ position: absolute;
 {
     position: relative;
     opacity: 0;
+}
+/*---------------------------------------------------------*/
+
+.sidemenu{
+    height: 100%;
+    width: 350px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background:linear-gradient(#558CF2,#4272DB); /**/
+    margin-left: -350px; 
+    transition: 0.5s;
+    z-index: 1;
+    box-shadow:  1px 1px 5px #6b6b6b;
+}
+
+.sidemenu ul
+{
+    list-style: none;
+    padding: :0;
+    margin-top: 45px;
+    margin-left: 45px;
+}
+.sidemenu p
+{
+    margin-bottom: 30px;
+    display: block;
+}
+.arrow
+{
+    position: relative;
+    margin-left: 350px;
+    margin-top: 50px;
+    width: 55px;
+}
+.Bloc
+{
+    transition: 0.5s;
+    /*background-color:aqua;*/
+}
+.formulaire
+{
+    /*float: right;*/
+    /*margin: auto auto;
+    width: 250px;*/
+    font-family: TypooGras;
+}
+.formu{
+    margin: auto auto;
+    width: 350px;
+}
+
+.formu h3{
+    font-size: 17px;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+.btnEnvoyer h3
+{
+    font-family: Typoolight;
+}
+.presentation h3
+{
+     margin: auto auto;
+    width: 200px;
+     font-family: Typoolight;
 }

@@ -4,6 +4,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="description" content="CV de Maxime Vantorre - portfolio." />
         <meta name="keywords" content="VANTORRE, MAXIME, vantorre, maxime, Vantorre, Maxime, portfolio, Portfolio, PORTFOLIO, cv, CV, Cv, lechiffre, LECHIFFRE,le chiffre, LE CHIFFRE, Le chiffre, Le Chiffre, chiffre, CHIFFRE, Chiffre" />
+        <script src="script.js"></script>
         <title>CV de Maxime Vantorre</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="shortcut icon" type="image/png" href="images/Icon_Site.ico"/>
@@ -11,8 +12,24 @@
 	</head>
 
 	<body>
+        
+        <div id="sideMenu" class="sidemenu">
+            <h3 class="presentation">CONTACTEZ MOI !</h3>
+            <img class="arrow" src="images/arrow.png" alt="Right arrow" class="expand-arrow" onmouseover="openMenu()">
+            <ul class="formu">
+            <li class="formulaire"><label for="name"><h3>NOM :</h3></label>
+        <input type="text" id="name" name="user_name"></li>
+                <li class="formulaire"><label for="mail"><h3>E-MAIL :</h3></label>
+        <input type="email" id="mail" name="user_mail"></li>
+                <li class="formulaire"> <label for="msg"><h3>MESSAGE :</h3></label>
+        <textarea id="msg" name="user_message"></textarea></li>
+            <li class="btnEnvoyer"><p><button type="submit" class="btn btn-secondary btn-xl" id="sendMessageButton"><h3>ENVOYER</h3></button></p></li>
+            </ul>
+        </div>
+        
+         
         <div id="Bloc"> 
-            <div class="Left">
+            <div class="Left" onclick="closeMenu()">
                 <img class="Photo" src="images/profil.jpg">
 
             <h3>INFORMATIONS:</h3>
