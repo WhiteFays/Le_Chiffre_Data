@@ -176,6 +176,7 @@ position: absolute;
     margin-top: 10px;
     margin-bottom: -80px;
     width: 45px;
+    z-index: 3;
 }
 .Bloc
 {
